@@ -1,7 +1,7 @@
 # Common non-csv data between CV and resume
 
 # Header with description of what is trying to be accomplished with this CV/Resume
-intro_text <- "I have published [scientific papers](https://scholar.google.com/citations?user=v1bbB_YAAAAJ&hl=en) that generate insights about global health from complex surveys, supported [national malaria programs](https://www.youtube.com/watch?v=w0Mo4qE3Pfw) to apply quantitative methods to inform strategic planning, and developed analysis pipelines to make it [easy to visualise and generate estimates](https://github.com/ifeomaozo/hbhi-dhs) from the Demographic and Health Surveys.
+intro_text <- "Fourth year PhD student in the department of statistics at Northwestern University with over four years of research experience in statistical modeling involving time-series analysis, epidemiology, optimization, and machine learning. I have published multiple scientific papers with interdisciplinary focuses bridging the knowledge from statistical modeling and epidemiology, and statistical modeling and computer science. My current focus is in applying spatio-temporal models to quantify the efficacy of malaria interventions in sub-Saharan Africa.
 "
 
 
@@ -9,10 +9,12 @@ intro_text <- "I have published [scientific papers](https://scholar.google.com/c
 skills <- tribble(
   ~skill,               ~level,
   "R",                  5,
-  "SAS",                4,
-  "Stata",              3,
-  "Python",             2,
+  "Python",             3,
+  "MATLAB",             3,
+  "C/C++",              2,
+  "LaTeX",              2,
 )
+
 
 
 

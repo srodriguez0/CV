@@ -1,1 +1,1 @@
-pagedown::chrome_print("C:/Users/ido0493/Documents/CV/Ifeoma Ozodiegwu's Resume_.html")
+pagedown::chrome_print("~/OneDrive/Documents/GitHub/CV/Sebastian Rodriguez's Resume.html")

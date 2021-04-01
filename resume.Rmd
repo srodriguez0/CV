@@ -1,6 +1,6 @@
 ---
-title: Ifeoma Ozodiegwu's Resume"
-author: Ifeoma D. Ozodiegwu
+title: Sebastian Rodriguez's Resume
+author: Sebastian Rodriguez
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -47,18 +47,17 @@ Aside
 ================================================================================
 
 
-![logo](beta_dist.png){width=100%}
+![logo](lab_logo_v1_with_name.png){width=100%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
 
 
 
-- <i class="fa fa-envelope"></i> ozodiegwui@gmail.com
-- <i class="fa fa-twitter"></i> Ifeomaozo
-- <i class="fa fa-github"></i> github.com/ifeomaozo
-- <i class="fa fa-linkedin"></i> linkedin/ifeomaozodiegwu
-- <i class="fa fa-phone"></i> (773) 431-4324
+- <i class="fa fa-envelope"></i> sebastian@rodriguez.cr
+- <i class="fa fa-github"></i> github.com/srodriguez0
+- <i class="fa fa-linkedin"></i> linkedin.com/in/sebastian-rodriguez-509528aa
+- <i class="fa fa-phone"></i> +1 (814) 441 2781
 
 
 
@@ -71,7 +70,7 @@ build_skill_bars(skills)
 ```
 
 ::: aside
-<p style="font-family: calibri; font-size:11pt; font-style:italic">"I have extensive experience in client-facing roles and on projects that directly impact health in resource-limited settings." </p>
+<p style="font-family: calibri; font-size:11pt; font-style:italic">"???" </p>
 :::
 
 <!-- Open Source Contributions {#open-source} -->
@@ -89,7 +88,7 @@ build_skill_bars(skills)
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
+<!-- Made w/ [**pagedown**](https://github.com/rstudio/pagedown). -->
 
 
 
@@ -98,7 +97,7 @@ Made w/ [**pagedown**](https://github.com/rstudio/pagedown).
 Main
 ================================================================================
 
-Ifeoma Ozodiegwu {#title}
+Sebastian Rodriguez {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -128,7 +127,7 @@ position_data %>% print_section('education')
 Selected Talks & Publications   {data-icon=book}
 --------------------------------------------------------------------------------
 ::: aside
-<p style="font-family: calibri; font-size:11pt; font-style:italic">"I am passionate about data-driven decision-making. In many resource-poor settings, primary data is not readily available. My expertise lies in applying quantitative methods to make the best decisions with secondary data." </p>
+<p style="font-family: calibri; font-size:11pt; font-style:italic">"?????" </p>
 :::
 
 ```{r}
@@ -136,9 +135,6 @@ print_section(position_data, 'academic_articles')
 ```
 
 
-Selected Press (About)  {data-icon=newspaper}
---------------------------------------------------------------------------------
-
 ```{r}
-print_section(position_data, 'about_me_press')
+print_section(position_data, 'academic_press')
 ```
