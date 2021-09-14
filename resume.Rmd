@@ -70,7 +70,7 @@ build_skill_bars(skills)
 ```
 
 ::: aside
-<p style="font-family: calibri; font-size:11pt; font-style:italic">"???" </p>
+<p style="font-family: calibri; font-size:11pt; font-style:italic"> </p>
 :::
 
 <!-- Open Source Contributions {#open-source} -->
@@ -127,7 +127,7 @@ position_data %>% print_section('education')
 Selected Talks & Publications   {data-icon=book}
 --------------------------------------------------------------------------------
 ::: aside
-<p style="font-family: calibri; font-size:11pt; font-style:italic">"?????" </p>
+<p style="font-family: calibri; font-size:11pt; font-style:italic"> </p>
 :::
 
 ```{r}
