@@ -36,6 +36,7 @@ position_data <- read_csv('positions.csv') %>%
     section = case_when(
       section %in% c('research_positions', 'industry_positions') ~ 'positions', 
       section %in% c('data_science_writings', 'by_me_press') ~ 'writings',
+      section %in% c('academic_articles', 'academic_press') ~ 'academic_work',
       TRUE ~ section
     )
   ) 
@@ -104,22 +105,22 @@ Sebastian Rodriguez {#title}
 cat(sanitize_links(intro_text))
 ```
 
-Selected Positions {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-
-
-```{r}
-position_data %>% print_section('positions')
-```
-
-
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
 position_data %>% print_section('education')
+```
+
+
+
+Selected Positions {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+
+```{r}
+position_data %>% print_section('positions')
 ```
 
 
@@ -131,10 +132,5 @@ Selected Talks & Publications   {data-icon=book}
 :::
 
 ```{r}
-print_section(position_data, 'academic_articles')
-```
-
-
-```{r}
-print_section(position_data, 'academic_press')
+print_section(position_data, 'academic_work')
 ```
