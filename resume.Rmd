@@ -34,9 +34,9 @@ position_data <- read_csv('positions.csv') %>%
   mutate(
     # Build some custom sections by collapsing others
     section = case_when(
-      section %in% c('research_positions', 'industry_positions') ~ 'positions', 
+      section %in% c('research_positions', 'industry_positions', 'teaching_positions') ~ 'positions', 
       section %in% c('data_science_writings', 'by_me_press') ~ 'writings',
-      section %in% c('academic_articles', 'academic_press') ~ 'academic_work',
+      # section %in% c('academic_articles', 'academic_press') ~ 'academic_work',
       TRUE ~ section
     )
   ) 
@@ -125,12 +125,30 @@ position_data %>% print_section('positions')
 
 
 
-Selected Talks & Publications   {data-icon=book}
+Selected Publications   {data-icon=book}
 --------------------------------------------------------------------------------
 ::: aside
 <p style="font-family: calibri; font-size:11pt; font-style:italic"> </p>
 :::
 
 ```{r}
-print_section(position_data, 'academic_work')
+print_section(position_data, 'academic_articles')
 ```
+
+
+Selected Talks   {data-icon=book}
+--------------------------------------------------------------------------------
+::: aside
+<p style="font-family: calibri; font-size:11pt; font-style:italic"> </p>
+:::
+
+
+```{r}
+print_section(position_data, 'academic_press')
+```
+
+
+
+
+
+
